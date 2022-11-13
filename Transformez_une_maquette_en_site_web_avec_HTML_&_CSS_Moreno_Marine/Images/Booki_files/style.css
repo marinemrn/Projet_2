@@ -1,0 +1,259 @@
+/* HEADER */
+
+.hebergements
+{
+	color: black;
+	text-decoration: none;
+	text-align: right;
+	font-family: raleway;
+}
+
+.activites
+{
+	color: black;
+	text-decoration: none;
+	text-align: right;
+	font-family: raleway;
+}
+
+.rechercher
+{
+	border: 1px solid #F2F2F2;
+	border-radius: 20px;
+	width: 425px;
+}
+
+.barrederecherche
+{
+	border: none;
+}
+
+a:hover
+{
+	text-decoration: none;
+	font-size: 20px;
+}
+
+a 
+{
+	color: black;
+	text-decoration: none;
+}
+
+#conteneur1 /* filtres */ 
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: auto;
+	align-content: center;
+	font-family: raleway;
+}
+
+.filtres:nth-child(1)
+{
+	display: flex;
+	order: 1;
+}
+
+.economique:nth-child(2)
+{
+	border-radius: 20px;
+	border: 2px #DEDEDE solid;
+	padding: 8px;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-align: center;
+	order: 2;
+}
+
+
+.familial:nth-child(3)
+{
+	border-radius: 20px;
+	border: 2px #DEDEDE solid;
+	padding: 8px;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-align: center;
+	order: 3;
+}
+
+.romantique:nth-child(4)
+{
+	border-radius: 20px;
+	border: 2px #DEDEDE solid;
+	padding: 8px;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-align: center;
+	order: 4;
+}
+
+.animauxautorises:nth-child(5)
+{
+	border-radius: 20px;
+	border: 2px #DEDEDE solid;
+	padding: 8px;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-align: center;
+	order: 5;
+}
+
+
+
+           ------------------------------------------------------------------
+
+
+
+
+/* BODY */
+
+body
+{
+	font-family: Raleway, Arial, arial black, times new roman;
+	margin: 50px;
+	width: 100%;
+
+}
+
+p
+{
+	font-family: raleway;
+}
+
+
+
+           ------------------------------------------------------------------
+
+
+
+/* main */
+
+section
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+button
+{
+	background-color: #0065FC;
+	font-family: raleway;
+	color: white;
+	border: none;
+}
+
+
+.imageflottante
+{
+	float: left;
+	width: 235px;
+	height: 125px;
+	text-align: right;
+	border: 5px white solid;
+	border-radius: 20px;
+	box-shadow: 4px /*décalage horizontal*/ 4px /*décalage vertical*/ 25px /*adoucissement */ #BFBFBF;
+}
+
+.dessous /* texte sous les photos */
+{
+	clear: both;
+}
+
+
+
+#cadregris /* hebergements */
+{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+
+.element
+{
+	background-color: #F2F2F2;
+	border-radius: 20px;
+	padding: 40px;
+	padding-top: 20px;
+	align-self: flex-start;
+}
+
+
+.element:nth-child(1)
+{
+	width: 800px;
+	display: inline-block;
+	justify-content: left;
+}
+
+
+}
+.element:nth-child(2)
+{
+	width: 800px;
+	height: 220px;
+	justify-content: right;
+}
+
+
+#conteneur2 /* activités */
+{
+	display: flex;
+	justify-content: left;
+	font-family: raleway;
+}
+
+
+
+           ------------------------------------------------------------------
+
+
+
+/* FOOTER */
+
+footer
+{
+	background-color: #F2F2F2;
+}
+
+
+ul
+{
+	list-style-type: none;
+	font-family: raleway;
+}
+
+
+.pieddepage
+{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
